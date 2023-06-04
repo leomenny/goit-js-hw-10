@@ -1,0 +1,58 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 5px;
+}
+
+.loader,
+.error {
+  display: none;
+  font-style: italic;
+  color: red;
+}
+
+.country-list {
+  margin-bottom: 20px;
+}
+
+.country-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.country-list-item img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.country-info {
+  display: none;
+  margin-top: 20px;
+}
+
+.country-info img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.country-info-item {
+  margin-bottom: 5px;
+}
+
+.country-info-item span {
+  font-weight: bold;
+}
