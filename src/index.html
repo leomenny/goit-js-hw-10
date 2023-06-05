@@ -2,23 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Homework 10</title>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="search-container">
-        <label for="search-box">Enter country name:</label>
-        <input type="text" id="search-box" placeholder="Search..." />
-      </div>
-      <p class="loader">Loading data, please wait...</p>
-      <p class="error">Oops! Something went wrong! Try reloading the page!</p>
-      <div class="country-list"></div>
-      <div class="country-info"></div>
-    </div>
+    <input type="text" id="search-box" />
+    <ul class="country-list"></ul>
+    <div class="country-info"></div>
 
-    <script src="fetchCountries.js" type="module"></script>
     <script src="index.js" type="module"></script>
   </body>
 </html>
