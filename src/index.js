@@ -1,6 +1,6 @@
 import debounce from "lodash.debounce";
 import { fetchCountries } from "./fetchCountries";
-import { renderCountryMarkup } from "./countryMarkup";
+import { renderCountryMarkup } from "./markupCountry";
 
 const DEBOUNCE_DELAY = 300;
 
@@ -19,3 +19,8 @@ const debouncedFetchCountries = debounce(() => {
 }, DEBOUNCE_DELAY);
 
 refs.searchBox.addEventListener('input', debouncedFetchCountries);
+
+
+
+
+
